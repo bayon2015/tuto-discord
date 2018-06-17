@@ -13,7 +13,7 @@ client.on("ready", () => {
 
 client.on('message', message => {
 
-    if(message.content.toLowerCase().startsWith("bonjour") || message.content.toLowerCase().startsWith("salut") || message.content.toLowerCase().startsWith("bonne") || message.content.toLowerCase().startsWith("bye") || message.content.toLowerCase().startsWith("merci") || message.content.toLowerCase().startsWith("coucou") ){
+    if(message.content.toLowerCase().startsWith("bonjour") || message.content.toLowerCase().startsWith("salut") || message.content.toLowerCase().startsWith("bonne") || message.content.toLowerCase().startsWith("bye") || message.content.toLowerCase().startsWith("merci") || message.content.toLowerCase().startsWith("coucou") || message.content.toLowerCase().startsWith("a plus") || message.content.toLowerCase().startsWith("a+")){
         message.reply("Tuturuuu :)");
         console.log('Le bot dit bonjour')
     }
