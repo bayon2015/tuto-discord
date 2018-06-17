@@ -13,7 +13,7 @@ client.on("ready", () => {
 
 client.on('message', message => {
 
-    if(message.content.toLowerCase().startsWith("bonjour") || message.content.toLowerCase().startsWith("salut") || message.content.toLowerCase().startsWith("bonne") || message.content.toLowerCase().startsWith("bye") || message.content.toLowerCase().startsWith("merci") || message.content.toLowerCase().startsWith("coucou") || message.content.toLowerCase().startsWith("a plus") || message.content.toLowerCase().startsWith("a+") || message.content.toLowerCase().startsWith("tuturu") || message.content.toLowerCase().startsWith("tuturuu") || message.content.toLowerCase().startsWith("tuturuuu")){
+    if(message.content.toLowerCase().startsWith("bonjour") || message.content.toLowerCase().startsWith("salut") || message.content.toLowerCase().startsWith("bonne") || message.content.toLowerCase().startsWith("bye") || message.content.toLowerCase().startsWith("merci") || message.content.toLowerCase().startsWith("coucou") || message.content.toLowerCase().startsWith("a plus") || message.content.toLowerCase().startsWith("a+") || message.content.toLowerCase().startsWith("tuturu") || message.content.toLowerCase().startsWith("tuturuu") || message.content.toLowerCase().startsWith("tuturuuu") || message.content.toLowerCase().startsWith("hey") || message.content.toLowerCase().startsWith("heey") || message.content.toLowerCase().startsWith("hey!") || message.content.toLowerCase().startsWith("heyy") || message.content.toLowerCase().startsWith("heyyy")){
         message.reply("Tuturuuu :)");
         console.log('Le bot dit bonjour')
     }
