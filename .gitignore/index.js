@@ -26,13 +26,13 @@ client.on('message', message => {
         .setColor("#40A497")
         .setTitle("Voici mes commandes d'aide :D")
         .setThumbnail(message.author.avatarURL)
-        .setDescription("Je suis Kawaiiiiibot, voici mes commandes disponibles:")
+        .setDescription("Je suis Mayuri, voici mes commandes disponibles:")
         .addField("*aide", "Affiche les commandes du bot !")
         .addField("Bonjour, Salut", "Le bot vous salut !")
         .addField("*statistiques", "Le bot vous envoit des informations sur votre profil")
         .addField("*info", "Le bot donne les infos sur le serveur !")
         /*.addField("*kick", "kick l'utilisateur !")*/
-        .setFooter("Menu d'aide - Kawaiiiiibot")
+        .setFooter("Menu d'aide - Mayuri")
         message.channel.sendMessage(help_embed);
         console.log("Un utilisateur a effectué la commande d'aide !")
     }
