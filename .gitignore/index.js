@@ -4,12 +4,15 @@ const client = new Discord.Client();
 
 var prefix = "*";
 
-client.login("NDU3NjQ5ODUxMDEwNzc3MTA5.DgcPpA.lN7V01Yq3qXJhXRWN_HfjViBG9A");
+
 
 client.on("ready", () => {
     console.log("Je suis pret")
     client.user.setGame("Tuturuuu, I'm here for you :)")
+    client.user.setUsername("Mayuri");
 });
+
+client.login("NDU3NjQ5ODUxMDEwNzc3MTA5.Dho7oQ.dQGqCSzdBSkwyz3ZLe5dcFaFrUc");
 
 client.on('message', message => {
 
